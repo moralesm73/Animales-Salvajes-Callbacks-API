@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 100px;
+}
+
+/* Formulario */
+
+#preview {
+  min-height: 200px;
+  background-image: url(../imgs/lion.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#preview img {
+  width: auto;
+  height: 200px;
+}
+
+
+/* Tabla de Participantes */
+
+#Animales {
+  height: 100%;
+  background: #f0f0f0;
+}
+
+#Animales div div {
+  transition: all 200ms;
+}
+
+#Animales div >div:hover {
+  box-shadow: 0px 1px 5px 1px;
+}
+
+.participante {
+  max-width: 30%;
+}
+
+.card-animal{
+  width: calc(100%/3);
+  padding: 1rem;
+}
+.card-img{
+  background-image: url(../imgs/Aguila.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:300px;
+  width: 100%;
+  cursor: pointer;
+}
+.footer-sound {
+  background-color: #6c757d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 1rem;
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Modal */
+
+.modal-dialog{
+    max-width: 85% !important;
+}
+
+.modal-body img{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
